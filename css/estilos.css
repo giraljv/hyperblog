@@ -1,7 +1,7 @@
 body 
 {
-
-    color: #333;
+    background-color: rgb(86, 98, 80);
+    color: rgb(46, 44, 44);
     text-align: left;
     font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
 
@@ -17,6 +17,11 @@ body
     0,75);
 }
 
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
+}
 #cabecera #tagline
 {
     font-weight: normal;
@@ -36,9 +41,8 @@ body
 {
     text-align: left;
 }
-#footer
+#post
 {
-    background: rgb(212, 212, 180);
-    text-align: center;
-    
+    background: azure;
+    padding: 1em;
 }
